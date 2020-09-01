@@ -39,7 +39,7 @@ if simple_skins == true then
 			local skin = skins.skins[name]
 			
 			if skin ~= newhand_oldskin[name] then
-				player:get_inventory():set_stack("hand", 1, "newhand:"..skin)
+				player:get_inventory():set_stack("hand", 1, "newhand:"..skin)yeah
 			end
 			
 			newhand_oldskin[name] = skin
